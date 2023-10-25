@@ -1,0 +1,2 @@
+2023-10-25 14:18:50.897 +02:00 [INF] Web is now started. Let's rejoice!
+2023-10-25 14:25:01.888 +02:00 [INF] Web is now started. Let's rejoice!
