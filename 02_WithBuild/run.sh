@@ -1,7 +1,7 @@
 # Build a publish v jednom
 sudo docker build -t 02_withbuild:latest .
 
-# Pustime jako deamona
+# Pustime misto interactive jako deamona
 sudo docker run -d -p 8080:80 02_withbuild:latest 
 
 # Muzeme pustit vetsi mnozstvi najednou

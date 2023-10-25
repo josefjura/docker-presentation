@@ -1,3 +1,6 @@
+# Pustime lokalne
+cd _SampleWeb && dotnet run && cd ..
+
 # Udelame publish
 cd _SampleWeb && sudo dotnet publish -c Release -o ../publish && cd ..
 

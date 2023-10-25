@@ -5,7 +5,7 @@ sudo docker build -t 03_logging:latest .
 sudo docker run -d -p 8080:80 03_logging:latest  
 
 # 1 Pripojime se k bezicimu containeru
-sudo docker exec -it HASH /bin/sh
+sudo docker exec -it HASH /bin/bash
 # 2 Cteme logy primo z aplikace 
 sudo docker logs --tail 10 --follow HASH
 # 3 Namapujeme si venkovni adresar
